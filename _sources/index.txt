@@ -1,0 +1,26 @@
+.. open_source_for_economists documentation master file, created by
+   sphinx-quickstart on Sat May  9 12:56:45 2015.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+   sphinx-build -E ~/SURFdrive/open_source_for_economists/source
+   ~/github/open_source_for_economists
+
+
+Welcome to Open Source For Economists!
+======================================
+
+This website contains resources that are useful for economists to
+undertake research and publish it in a way that makes the work
+reproducible.
+
+
+
+
+Contents:
+
+.. toctree::
+   :maxdepth: 1
+
+
+   reporting
+   programming
