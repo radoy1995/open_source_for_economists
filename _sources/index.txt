@@ -22,6 +22,10 @@ Contents:
 
 
    practice			  
+   installing
+   github
+   assignment1
    reporting
+   assignment2
    programming
-   assignment
+   assignment3

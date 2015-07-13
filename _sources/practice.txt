@@ -42,6 +42,10 @@ have done and replicate it.
 By the end of this course, you will be able to do this yourself. In
 fact, your :ref:`assignment <assignment>` is going to be exactly this!
 
+Before we can do this, we need to install some software. This we do in
+the next section.
+
+
 
 .. _notebook: http://ipython.org/notebook.html
 .. _example: http://janboone.github.io/Deductible_Health_Insurance/

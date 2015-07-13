@@ -1,0 +1,16 @@
+First Assignment
+================
+
+Copy the :ref:`buttondown files <buttondown>` that you downloaded
+before. Edit the file "pandoc_example.md" such that it becomes
+your CV. Covert your CV into html using pandoc and the stylesheet
+buttondown.css. Publish your CV both in html and in markdown on
+github.
+
+Note that --in case you want to show off-- there are stylesheets
+especially made to render CV's in html. Google, for instance,
+"markdown CV".
+
+There is no need to do this. But if you manage, we will be very
+impressed! 
+
