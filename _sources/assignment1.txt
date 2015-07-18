@@ -1,16 +1,29 @@
 First Assignment
 ================
 
-Copy the :ref:`buttondown files <buttondown>` that you downloaded
-before. Edit the file "pandoc_example.md" such that it becomes
-your CV. Covert your CV into html using pandoc and the stylesheet
-buttondown.css. Publish your CV both in html and in markdown on
-github.
+.. _assignment1:
 
+
+For the assignment, do the following:
+  
+* Copy the :ref:`buttondown files <buttondown>` that you downloaded
+  before.
+* Edit the file "pandoc_example.md" such that it becomes
+  your CV. A CV has your name at the top, well I guess you know what a
+  CV is...
+* Convert your CV into html using pandoc and the stylesheet
+  buttondown.css.
+* Publish your CV both in html and in markdown on github.
+* Send us an email with the address of your github repository and the
+  address with the html page of your CV. That is, as you saw
+  :ref:`here <webaddress>` we want an address like
+  http://janboone.github.io/second-repo/CV.html (just to be sure: this address does not exist...).
+
+  
 Note that --in case you want to show off-- there are stylesheets
 especially made to render CV's in html. Google, for instance,
 "markdown CV".
 
-There is no need to do this. But if you manage, we will be very
-impressed! 
+There is no need to do this. But if you manage to do this for the
+assignment, we will be very impressed!
 

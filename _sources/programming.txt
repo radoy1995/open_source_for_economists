@@ -1,5 +1,16 @@
-Programming
-===========
+Python
+======
 
+.. _python:
 
 We use python as programming language.
+
+
+
+https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks
+
+
+* http://www.cs.colostate.edu/~anderson/cs545/index.html/doku.php?id=useful_links
+
+    * https://scipy-lectures.github.io/ 
+    * http://www.physics.nyu.edu/pine/pymanual/html/pymanMaster.html

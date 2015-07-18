@@ -24,8 +24,10 @@ Contents:
    practice			  
    installing
    github
-   assignment1
    reporting
+   assignment1
+   git
    assignment2
    programming
+   socialmedia
    assignment3

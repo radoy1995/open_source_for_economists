@@ -32,6 +32,12 @@ Required installs for this course:
   presentation).
 * As we will be working with GitHub_, we need to install Git_. No need
   to install a fancy GUI, as we will be working with the command line.
+
+  * if you need more help here,
+	`<http://git-scm.com/book/en/v2/Getting-Started-Installing-Git>`_
+	may be useful and
+	`<http://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup>`_.
+
 * Windows has a command-prompt_ installed by default. It is probably
   not the best terminal you can use. Here is a discussion of better
   consoles_ for windows. Note that the last link points to

@@ -1,0 +1,313 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Using Git &mdash; open_source_for_economists 1.0 documentation</title>
+    
+    <link rel="stylesheet" href="_static/agogo.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '1.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="top" title="open_source_for_economists 1.0 documentation" href="index.html" />
+    <link rel="next" title="Second assignment" href="assignment2.html" />
+    <link rel="prev" title="First Assignment" href="assignment1.html" /> 
+  </head>
+  <body role="document">
+    <div class="header-wrapper" role="banner">
+      <div class="header">
+        <div class="headertitle"><a
+          href="index.html">open_source_for_economists 1.0 documentation</a></div>
+        <div class="rel" role="navigation" aria-label="related navigation">
+          <a href="assignment1.html" title="First Assignment"
+             accesskey="P">previous</a> |
+          <a href="assignment2.html" title="Second assignment"
+             accesskey="N">next</a> |
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a>
+        </div>
+       </div>
+    </div>
+
+    <div class="content-wrapper">
+      <div class="content">
+        <div class="document">
+            
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="using-git">
+<h1>Using Git<a class="headerlink" href="#using-git" title="Permalink to this headline">¶</a></h1>
+<p id="git">Git is a version control system. There is a bit of a learning curve,
+but once you master it, it simplifies your life considerably.</p>
+<p>As we saw <a class="reference internal" href="github.html#github1"><span>before</span></a>, it helps you to publish your work on
+GitHub.</p>
+<p>Second, as the name &#8220;version control&#8221; suggests, it helps you
+to keep control of different versions. Hence, not need to call your
+files &#8220;file_v2_a&#8221; anymore. You change your files and &#8220;commit&#8221; the
+changes, Git keeps track of the different versions.</p>
+<p>Third, it allows you to collaborate with (many) others. You and your
+collaborators can work on the same file. Git/GitHub offers a way to
+track changes and merge changes into the main file. Here we explain
+how this works.</p>
+<p>Note that you&#8217;ve already seen a number of Git-commands <a class="reference internal" href="github.html#github1"><span>here</span></a>
+when we were using GitHub. Here we will explain what these commands
+actually mean.</p>
+<p>As before, there are numerous Git tutorials on the web. You can either
+google or look at the following:</p>
+<ul class="simple">
+<li><a class="reference external" href="https://www.atlassian.com/git/tutorials/">https://www.atlassian.com/git/tutorials/</a></li>
+<li><a class="reference external" href="https://progit.org/">https://progit.org/</a></li>
+<li>on how to collaborate: <a class="reference external" href="https://help.github.com/categories/collaborating/">https://help.github.com/categories/collaborating/</a></li>
+</ul>
+<div class="section" id="workflow">
+<h2>Workflow<a class="headerlink" href="#workflow" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="working-on-one-branch">
+<h3>working on one branch<a class="headerlink" href="#working-on-one-branch" title="Permalink to this headline">¶</a></h3>
+<p>Let&#8217;s create a third repository on GitHub, using the steps <a class="reference internal" href="github.html#github1"><span>here</span></a>.</p>
+<ul>
+<li><p class="first">Create a new repository, say &#8220;third-repo&#8221;.</p>
+</li>
+<li><p class="first">Go to your command line and navigate to your directory &#8220;github&#8221;</p>
+</li>
+<li><p class="first">Type at the command line: &#8220;git clone
+<a class="reference external" href="https://github.com/janboone/third-repo">https://github.com/janboone/third-repo</a>&#8221; where you change
+&#8220;/janboone&#8221; to your own user name (instead of
+&#8220;janboone&#8221;)</p>
+</li>
+<li><p class="first">the repository that you just created on GitHub is now copied
+(&#8220;cloned&#8221;) to your computer.</p>
+</li>
+<li><p class="first">again we stop using &#8220;&#8221; around the commands that you type at the
+command line. Type the following to change into the directory
+&#8220;third-repo&#8221; (&#8220;cd&#8221; stands for Change Directory):</p>
+</li>
+<li><p class="first">cd third-repo/</p>
+</li>
+<li><p class="first">start your markdown editor (whichever one you installed) and create
+a file &#8220;document.md&#8221; in this directory &#8220;github/third-repo&#8221;. Type
+some text here.</p>
+</li>
+<li><p class="first">The following command adds all files in the directory to be tracked
+by Git:</p>
+</li>
+<li><p class="first">git add .</p>
+</li>
+<li><p class="first">the files are now &#8220;staged&#8221; and the following command adds these
+files to the next &#8220;commit&#8221; (with the &#8220;-m&#8221; flag, you add a message):</p>
+</li>
+<li><p class="first">git commit -m &#8220;First version of document&#8221;</p>
+<ul>
+<li><dl class="first docutils">
+<dt>optional: you can skip the &#8220;git add&#8221; part, if you use the &#8220;-a&#8221;</dt>
+<dd><p class="first last">flag:</p>
+</dd>
+</dl>
+</li>
+<li><p class="first">git commit -a -m &#8220;First version of document&#8221;</p>
+</li>
+</ul>
+</li>
+<li><p class="first">if you want to see what you have changed, type either of the
+following (depending how much information you want):</p>
+<ul class="simple">
+<li>git log -p</li>
+<li>git log &#8211;stat</li>
+</ul>
+</li>
+<li><p class="first">the files are pushed to GitHub with the following command:</p>
+</li>
+<li><p class="first">git push origin master</p>
+</li>
+<li><p class="first">Go to the website: &#8220;<a class="reference external" href="http://janboone.github.io/third-repo/">http://janboone.github.io/third-repo/</a>&#8221; where
+you change &#8220;janboone&#8221; into your own github user name.</p>
+</li>
+<li><p class="first">You can see that there are 2 commits now:</p>
+</li>
+</ul>
+<a class="reference internal image-reference" href="_images/github_repo_8.png"><img alt="_images/github_repo_8.png" class="align-center" src="_images/github_repo_8.png" style="width: 935.1px; height: 649.8px;" /></a>
+<ul>
+<li><p class="first">click on &#8220;commits&#8221; and you see what they are:</p>
+<ul>
+<li><p class="first">the initial commit when we created the repository</p>
+</li>
+<li><dl class="first docutils">
+<dt>and the document file created above which we committed with the</dt>
+<dd><p class="first last">message &#8220;First version of this document&#8221;</p>
+</dd>
+</dl>
+</li>
+</ul>
+</li>
+</ul>
+<a class="reference internal image-reference" href="_images/github_repo_9.png"><img alt="_images/github_repo_9.png" class="align-center" src="_images/github_repo_9.png" style="width: 920.7px; height: 506.7px;" /></a>
+<ul class="simple">
+<li>click on &#8220;First version of this document&#8221; and you can see what we
+changed here. That is, you see the text that you typed in your editor</li>
+</ul>
+<a class="reference internal image-reference" href="_images/github_repo_10.png"><img alt="_images/github_repo_10.png" class="align-center" src="_images/github_repo_10.png" style="width: 931.5px; height: 747.0px;" /></a>
+<ul class="simple">
+<li>now change document.md by typing some changes to this file with your
+editor. Delete some words and add some sentences etc.</li>
+<li>git commit -a -m &#8220;Second version of document&#8221;</li>
+<li>git push origin master</li>
+<li>again go to the GitHub website as above</li>
+<li>you can see that there are 3 commits now</li>
+<li>click on each commit to see what you have changed.</li>
+</ul>
+</div>
+<div class="section" id="branching-out">
+<h3>branching out<a class="headerlink" href="#branching-out" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>With the following command we create a new branch called &#8220;testbranch&#8221;:</li>
+<li>git branch testbranch</li>
+<li>now we switch to this new branch:</li>
+<li>git checkout testbranch</li>
+<li>go back to your file document.md and change something in this file again</li>
+<li>git commit -a -m &#8220;Third version of this document in the testbranch&#8221;</li>
+<li>git push origin testbranch</li>
+<li>go back to your github website; you will see something like:</li>
+</ul>
+<a class="reference internal image-reference" href="_images/github_repo_11.png"><img alt="_images/github_repo_11.png" class="align-center" src="_images/github_repo_11.png" style="width: 934.2px; height: 688.5px;" /></a>
+<ul class="simple">
+<li>the site notes that you pushed &#8220;testbranch&#8221;</li>
+<li>click on &#8220;branch master&#8221; and you can choose between the master
+branch and the testbranch branch:</li>
+</ul>
+<a class="reference internal image-reference" href="_images/github_repo_12.png"><img alt="_images/github_repo_12.png" class="align-center" src="_images/github_repo_12.png" style="width: 917.1px; height: 686.7px;" /></a>
+<ul>
+<li><p class="first">compare the version of document.md in each branch.</p>
+</li>
+<li><p class="first">with &#8220;git checkout master&#8221; you switch back to the master branch. You
+can change things here which will not affect the testbranch etc.</p>
+<ul>
+<li><dl class="first docutils">
+<dt>in case you get an error message here: you can only checkout of a</dt>
+<dd><p class="first last">branch if all your changes are committed</p>
+</dd>
+</dl>
+</li>
+</ul>
+</li>
+<li><p class="first">after you typed &#8220;git checkout master&#8221;, use your editor to open the
+file document.md on your computer. Hence, your file document.md on
+your computer has switched back to the previous version (i.e. the
+changes you made in testbranch have gone in this version; by typing
+&#8220;git checkout testbranch&#8221; you see this version again)</p>
+</li>
+<li><p class="first">the following command gives an overview of your branches:</p>
+</li>
+<li><p class="first">git log &#8211;oneline &#8211;decorate &#8211;graph &#8211;all</p>
+</li>
+<li><p class="first">Now suppose that you are happy with the changes you made in
+testbranch. Then you would like to have these changes in the master
+branch as well. For this we &#8220;merge&#8221; the changes into the master branch</p>
+</li>
+<li><p class="first">first switch back to master (in case you had not done so yet):</p>
+</li>
+<li><p class="first">git checkout master</p>
+</li>
+<li><p class="first">and merge the changes from testbranch into master:</p>
+</li>
+<li><p class="first">git merge testbranch</p>
+</li>
+<li><p class="first">Note: if in the meantime you have also changed document.md in the
+master branch, Git cannot merge two versions. See <a class="reference external" href="http://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging#Basic-Merge-Conflicts">here</a>
+on how to deal with this.</p>
+</li>
+<li><p class="first">if you want, you can delete the testbranch now (all changes have
+been merged into master): &#8220;git branch -d testbranch&#8221;, but you don&#8217;t
+have to.</p>
+</li>
+</ul>
+</div>
+<div class="section" id="collaborating">
+<h3>collaborating<a class="headerlink" href="#collaborating" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+        </div>
+        <div class="sidebar">
+          <h3>Table Of Contents</h3>
+          <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="practice.html">Practice</a></li>
+<li class="toctree-l1"><a class="reference internal" href="installing.html">Installing the stuff</a></li>
+<li class="toctree-l1"><a class="reference internal" href="github.html">GitHub</a></li>
+<li class="toctree-l1"><a class="reference internal" href="reporting.html">Reporting your results</a></li>
+<li class="toctree-l1"><a class="reference internal" href="assignment1.html">First Assignment</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="">Using Git</a></li>
+<li class="toctree-l1"><a class="reference internal" href="assignment2.html">Second assignment</a></li>
+<li class="toctree-l1"><a class="reference internal" href="programming.html">Python</a></li>
+<li class="toctree-l1"><a class="reference internal" href="socialmedia.html">Social media</a></li>
+<li class="toctree-l1"><a class="reference internal" href="assignment3.html">Final assignment</a></li>
+</ul>
+
+          <div role="search">
+            <h3 style="margin-top: 1.5em;">Search</h3>
+            <form class="search" action="search.html" method="get">
+                <input type="text" name="q" />
+                <input type="submit" value="Go" />
+                <input type="hidden" name="check_keywords" value="yes" />
+                <input type="hidden" name="area" value="default" />
+            </form>
+            <p class="searchtip" style="font-size: 90%">
+                Enter search terms or a module, class or function name.
+            </p>
+          </div>
+        </div>
+        <div class="clearer"></div>
+      </div>
+    </div>
+
+    <div class="footer-wrapper">
+      <div class="footer">
+        <div class="left">
+          <div role="navigation" aria-label="related navigaton">
+            <a href="assignment1.html" title="First Assignment"
+              >previous</a> |
+            <a href="assignment2.html" title="Second assignment"
+              >next</a> |
+            <a href="genindex.html" title="General Index"
+              >index</a>
+          </div>
+          <div role="note" aria-label="source link">
+              <br/>
+              <a href="_sources/git.txt"
+                rel="nofollow">Show Source</a>
+          </div>
+        </div>
+
+        <div class="right">
+          
+    <div class="footer" role="contentinfo">
+        &copy; Copyright 2015, Jan Boone.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.3.1.
+    </div>
+        </div>
+        <div class="clearer"></div>
+      </div>
+    </div>
+
+  </body>
+</html>

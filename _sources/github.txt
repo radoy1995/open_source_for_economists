@@ -1,10 +1,14 @@
 GitHub
 ======
 
+.. _github1:
+
 We assume that you have installed all the software on the previous
 :ref:`page <install>`. Now we start using GitHub_. GitHub allows you
 to collaborate with others. This also the way that you publish your
 assignments so that we can grade them.
+
+An introduction to GitHub can also be found `here <http://git-scm.com/book/en/v2/GitHub-Account-Setup-and-Configuration>`_ 
 
 Sign up
 -------
@@ -198,6 +202,8 @@ yet. Hence, you can download the relevant files below.
   you change "janboone" into your own github user name and
   "second-repo" into the name of your own second repository.
 
+.. _webaddress:
+  
 * At http://janboone.github.io/second-repo/NoCss.html you can see the
   page where pandoc created the html from the markdown file without
   the css file. 
