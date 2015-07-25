@@ -239,6 +239,37 @@ have to.</p>
 </div>
 <div class="section" id="collaborating">
 <h3>collaborating<a class="headerlink" href="#collaborating" title="Permalink to this headline">¶</a></h3>
+<p>There are a number of ways in which you can collaborate on GitHub. As
+you will be working with a relatively small team, we present here the
+workflow where everyone has push rights on the repository. An
+alternative is that only one person has push rights and the others
+fork the repository. This is described <a class="reference external" href="http://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project">here</a>.</p>
+<p>How to add team members as collaborators is described <a class="reference external" href="http://git-scm.com/book/en/v2/GitHub-Maintaining-a-Project">here</a>.</p>
+<p>One team member creates a new repository. As described <a class="reference external" href="http://git-scm.com/book/en/v2/GitHub-Maintaining-a-Project">here</a>
+this team member clicks on settings, and then adds collaborators by
+their GitHub user names. Then all members clone this repository to
+their own computer. The workflow is then the same as above, with one
+exception.</p>
+<p>There is a probability that 2 or more members work on the project
+simultaneously and make changes. Then the first to push the changes
+back to GitHub has no problem: it works as above.</p>
+<p>When the second team member tries to push her/his changes, Git gives
+an error: it does not know how to merge the differences. The second
+team member to push changes, first needs to take the changes on board
+made by the first to push the changes to GitHub. This is done by
+typing the following:</p>
+<ul class="simple">
+<li>git fetch origin</li>
+<li>git merge origin/master</li>
+</ul>
+<p>Now the second member can push her/his changes onto GitHub by:</p>
+<ul class="simple">
+<li>git push origin master</li>
+</ul>
+<p>If you would like to avoid this, an alternative is that each team
+member creates her/his own branch of the repository and everyone works
+on her/his own branch only. Then the member&#8217;s branch can be merged
+with the master branch.</p>
 </div>
 </div>
 </div>

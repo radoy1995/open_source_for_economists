@@ -87,6 +87,8 @@ Git&#8221;.</p>
 </ul>
 <a class="reference internal image-reference" href="_images/github_repo_2.png"><img alt="_images/github_repo_2.png" class="align-center" src="_images/github_repo_2.png" style="width: 950.4px; height: 714.6px;" /></a>
 <ul class="simple">
+<li>if you are creating your &#8220;second-repo&#8221; as asked below; you can stop
+here and continue where you <a class="reference internal" href="#left">left</a>.</li>
 <li>Click on &#8220;Settings&#8221;</li>
 </ul>
 <a class="reference internal image-reference" href="_images/github_repo_3.png"><img alt="_images/github_repo_3.png" class="align-center" src="_images/github_repo_3.png" style="width: 932.4px; height: 1042.2px;" /></a>
@@ -121,6 +123,8 @@ you will be able to clone this repository, but we are not that far,
 yet. Hence, you can download the relevant files below.</p>
 <ul class="simple">
 <li>Create a new repository, say &#8220;second-repo&#8221;, using the steps above.</li>
+</ul>
+<ul class="simple" id="left">
 <li>Using Windows Explorer on Windows (Finder on Mac) or whatever
 program you like, create a new directory &#8220;github&#8221; in a place that
 you can navigate to using the command line. On Windows, you may want
@@ -149,23 +153,24 @@ Checking connectivity... done.
 <li>Note that at this point there is no need to understand what you are
 typing here and why. This will become clear in later lectures</li>
 <li>Type &#8220;cd second-repo&#8221;</li>
-<li>&#8220;git checkout &#8211;orphan gh-pages&#8221;</li>
+<li>&#8220;git checkout - -orphan gh-pages&#8221;</li>
 </ul>
 <div class="highlight-python"><div class="highlight"><pre>Switched to a new branch &#39;gh-pages&#39;
 </pre></div>
 </div>
 <ul class="simple">
-<li>&#8220;git rm -rf .&#8221;</li>
+<li>&#8220;git rm -rf .&#8221; &#8211;note that this is &#8220;-rf [space] .&#8221;</li>
 </ul>
 <div class="highlight-python"><div class="highlight"><pre>rm &#39;README.md&#39;
 </pre></div>
 </div>
 <ul class="simple">
-<li>&#8220;touch .nojekyll&#8221;</li>
+<li>&#8220;touch .nojekyll&#8221; &#8211;this is step is (only) necessary if you want to
+use sphinx; clearly, the step should be skipped if you do want to use Jekyll.</li>
 </ul>
 <ul id="buttondown">
 <li><p class="first">Download the following two files and copy them to your directory
-&#8220;github/second-repo&#8221;. That is, &#8220;C:github/second-repo&#8221; on Windows if
+&#8220;github/second-repo&#8221;. That is, &#8220;C:githubsecond-repo&#8221; on Windows if
 you followed the instructions above or &#8220;~/github/second-repo&#8221; on
 Mac. These are the two files from https://github.com/ryangray/buttondown:</p>
 <blockquote>

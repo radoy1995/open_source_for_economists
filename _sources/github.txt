@@ -47,6 +47,10 @@ Repository
    :scale: 90 %
    :align: center
 
+* if you are creating your "second-repo" as asked below; you can stop
+  here and continue where you left_.
+
+		   
 * Click on "Settings"
 
 .. image:: /images/github_repo_3.png
@@ -99,6 +103,8 @@ yet. Hence, you can download the relevant files below.
 
 * Create a new repository, say "second-repo", using the steps above.
 
+.. _left:
+  
 * Using Windows Explorer on Windows (Finder on Mac) or whatever
   program you like, create a new directory "github" in a place that
   you can navigate to using the command line. On Windows, you may want
@@ -133,24 +139,25 @@ yet. Hence, you can download the relevant files below.
 
 * Type "cd second-repo"
 
-* "git checkout --orphan gh-pages"
+* "git checkout - -orphan gh-pages"
 
 ::
 
   Switched to a new branch 'gh-pages'
 
-* "git rm -rf ."
+* "git rm -rf ." --note that this is "-rf [space] ."
 
 ::
 
   rm 'README.md'
    
-* "touch .nojekyll"
+* "touch .nojekyll" --this is step is (only) necessary if you want to
+  use sphinx; clearly, the step should be skipped if you do want to use Jekyll.
 
 .. _buttondown:
   
 * Download the following two files and copy them to your directory
-  "github/second-repo". That is, "C:\github/second-repo" on Windows if
+  "github/second-repo". That is, "C:\github\second-repo" on Windows if
   you followed the instructions above or "~/github/second-repo" on
   Mac. These are the two files from https://github.com/ryangray/buttondown:
 
@@ -162,7 +169,7 @@ yet. Hence, you can download the relevant files below.
   "buttondown.css"
 	   
     * "pandoc pandoc_example.md -s -c buttondown.css -o index.html"
-
+	  
 * To see what a css file does for html, we also convert to html
   without the css file:
 	  

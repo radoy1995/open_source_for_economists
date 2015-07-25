@@ -32,6 +32,11 @@ copy/clone this). The presentation then looks as follows:
 Hence, when you give your presentation, you only need a browser and
 the address of the presentation.
 
+If you want to experiment a bit with this, download :download:`the zip
+file <markdown_presentation.zip>`. Unzip this file and open the file
+markdown file presentation.md. The file also gives the commands to
+create html or pdf presentations from the markdown file.
+
 Latex
 -----
 
