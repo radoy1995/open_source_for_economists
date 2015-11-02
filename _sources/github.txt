@@ -5,10 +5,19 @@ GitHub
 
 We assume that you have installed all the software on the previous
 :ref:`page <install>`. Now we start using GitHub_. GitHub allows you
-to collaborate with others. This also the way that you publish your
+to collaborate with others. This is also the way that you publish your
 assignments so that we can grade them.
 
 An introduction to GitHub can also be found `here <http://git-scm.com/book/en/v2/GitHub-Account-Setup-and-Configuration>`_ 
+
+But basically it boils down to the following:
+
+.. image:: http://imgs.xkcd.com/comics/git.png
+   :scale: 90 %
+   :align: center
+
+
+
 
 Sign up
 -------
@@ -96,8 +105,10 @@ Repository
 Command line
 ------------	  
 
+.. _second-repo:
+
 Let's create a second repository and use the command line. We are
-going to use files from https://github.com/ryangray/buttondown. Later,
+going to use files from `<https://github.com/ryangray/buttondown>`_. Later,
 you will be able to clone this repository, but we are not that far,
 yet. Hence, you can download the relevant files below.
 
@@ -108,18 +119,18 @@ yet. Hence, you can download the relevant files below.
 * Using Windows Explorer on Windows (Finder on Mac) or whatever
   program you like, create a new directory "github" in a place that
   you can navigate to using the command line. On Windows, you may want
-  to create it as "C:\github"; on Mac as "~/github".
+  to create it as "C:\\github"; on Mac as "~/github".
 
 * Go to your command line (e.g. command prompt under Windows or
   another console; Terminal or iTerm2 under Mac, whatever you
   installed :ref:`here <install>`).
 
 * Navigate to the new directory "github" by typing at the command line
-  either "cd C:\github" or "cd ~/github" (whatever directory you chose
+  either :command:`cd C:\\github` or :command:`cd ~/github` (whatever directory you chose
   to create)
 
-* Type at the command line: "git clone
-  https://github.com/janboone/second-repo" where you change
+* Type at the command line: :command:`git clone
+  https://github.com/janboone/second-repo` where you change
   "/janboone/second-repo" to your own user name (instead of
   "janboone") and the name of the repository just created (if you did
   not choose "second-repo")
@@ -135,31 +146,31 @@ yet. Hence, you can download the relevant files below.
   Checking connectivity... done.  
 
 * Note that at this point there is no need to understand what you are
-  typing here and why. This will become clear in later lectures
+  typing here and why. This will become clear later
 
-* Type "cd second-repo"
+* Type: :command:`cd second-repo`
 
-* "git checkout - -orphan gh-pages"
+* :command:`git checkout --orphan gh-pages`
 
 ::
 
   Switched to a new branch 'gh-pages'
 
-* "git rm -rf ." --note that this is "-rf [space] ."
+* :command:`git rm -rf .` --note that this is "-rf [space] ."
 
 ::
 
   rm 'README.md'
    
-* "touch .nojekyll" --this is step is (only) necessary if you want to
+* :command:`touch .nojekyll` --this is step is (only) necessary if you want to
   use sphinx; clearly, the step should be skipped if you do want to use Jekyll.
 
 .. _buttondown:
   
 * Download the following two files and copy them to your directory
-  "github/second-repo". That is, "C:\github\second-repo" on Windows if
+  "github/second-repo". That is, "C:\\github\\second-repo" on Windows if
   you followed the instructions above or "~/github/second-repo" on
-  Mac. These are the two files from https://github.com/ryangray/buttondown:
+  Mac. These are the two files from `<https://github.com/ryangray/buttondown>`_:
 
     * :download:`the markdown file <pandoc_example.md>`
     * :download:`the css style file <buttondown.css>`
@@ -168,19 +179,16 @@ yet. Hence, you can download the relevant files below.
   html file (here "index.html") using the style information from
   "buttondown.css"
 	   
-    * "pandoc pandoc_example.md -s -c buttondown.css -o index.html"
+    * :command:`pandoc pandoc_example.md -s -c buttondown.css -o index.html`
 	  
 * To see what a css file does for html, we also convert to html
   without the css file:
 	  
-    * "pandoc pandoc_example.md -o NoCss.html"
+    * :command:`pandoc pandoc_example.md -o NoCss.html`
 
-* From this point onward, I stop using quotes ("...") to indicate what
-  you should type at the command line.
-  
-* git add .
+* :command:`git add .`
 
-* git commit -a -m "First pages commit"
+* :command:`git commit -a -m "First pages commit"`
 
 ::
 	 
@@ -192,7 +200,7 @@ yet. Hence, you can download the relevant files below.
    create mode 100644 index.html
    create mode 100755 pandoc_example.md
   
-* git push origin gh-pages
+* :command:`git push origin gh-pages`
 
 ::
 

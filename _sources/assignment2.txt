@@ -8,6 +8,13 @@ you use math in the assignment. Then type the assignment in markdown
 using Latex to type math. That is, the assignment needs to contain
 math so that you can show us that you can use Latex.
 
+Note that the idea here is to show us what you have learned so far
+about using open source software. In other words, using an assignment
+where there is hardly any math and hardly any text is unlikely to
+impress us. Instead, if you also include a figure in your file this will
+raise your grade.
+
+
 part A
 ------
 
@@ -19,9 +26,9 @@ of both the repository and the published version (ending like
 part B
 ------
 
-From the same markdown file with your assignment make an html
+Starting from the same markdown file with your assignment make an html
 presentation using pandoc. Publish the presentation in the same
-repository (with an ending like "presentation.html").
+repository (both the markdown file "presentation.md"  and the one with an ending like "presentation.html").
 
 
 

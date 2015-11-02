@@ -4,7 +4,7 @@ Installing the stuff
 .. _install:
 
 *Disclaimer*: below we describe the software that you need to
-install. Although we are not aware of any problems with these
+install for this course. Although we are not aware of any problems with these
 programs, we cannot accept responsibility in case anything goes wrong
 with your computer. Also, when you use this software, make sure
 to save regularly and back up your work.
@@ -47,7 +47,7 @@ Required installs for this course:
   you may want to install iTerm2_, as it is more fancy and easier to
   work with.
 * The program language that we use for this course is python_ which we
-  will use with the ipython_ notebook interface. You can install these
+  will use with the ipython_ or `Jupyter <https://jupyter.org/>`_ notebook interface. You can install these
   things separately, but it is easier to install everything
   together. The best way to do this is to use the anaconda_
   distribution. Make sure to install python 2.7 (not 3.0) [#]_. See the
@@ -56,21 +56,21 @@ Required installs for this course:
   we will help. As an alternative you can choose
   canopy_. If even that gives problems, you can also work in
   the cloud with wakari_. But my guess is that this will be
-  slower. However, we recommend to work with anaconda.
+  slower. We recommend to work with anaconda.
 
   
 
 
 
-Optional (but recommended):
----------------------------
+Optional:
+---------
 
 If you like the way this website looks, you may want to install:
 
 * sphinx_. With sphinx you work with reStructuredText. You can also
   export your notebooks to reStructuredText to integrate them with
   sphinx, but you do not have to. Integrating sphinx with GitHub is a
-  but tricky, but we will explain how this works.
+  but tricky, but we can explain how this works.
 
 
 We will be editing a lot of text files. Clearly, you can use MS Word
@@ -94,7 +94,7 @@ file. That is, the editor recognizes what type of file you are editing
 and adapts its behaviour accordingly. Basically, there are two popular
 editors that can do this and there is a war_ between them.
 
-* Emacs_ is a great editor. It has a bit of learning curve; but hey,
+* Emacs_ is a great editor. It has a bit of a learning curve; but hey,
   you are young! Plenty of time for this investment to pay off. There
   are lots of introductions to emacs on the web. Just google something
   like "emacs tutorial" and you can choose your favourite one. If you
@@ -106,7 +106,7 @@ editors that can do this and there is a war_ between them.
   
 
 
-.. _music: https://www.youtube.com/watch?v=BcL---4xQYA&list=RDBcL---4xQYA#t=15
+.. _music: https://www.youtube.com/watch?v=w9TGj2jrJk8
 .. _Latex: http://latex-project.org/ftp.html
 .. _Pandoc: http://pandoc.org/installing.html
 .. _demos: http://pandoc.org/demos.html

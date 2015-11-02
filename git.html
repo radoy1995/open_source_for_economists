@@ -58,9 +58,9 @@
 but once you master it, it simplifies your life considerably.</p>
 <p>As we saw <a class="reference internal" href="github.html#github1"><span>before</span></a>, it helps you to publish your work on
 GitHub.</p>
-<p>Second, as the name &#8220;version control&#8221; suggests, it helps you
-to keep control of different versions. Hence, not need to call your
-files &#8220;file_v2_a&#8221; anymore. You change your files and &#8220;commit&#8221; the
+<p>Second, as the name &#8220;version control&#8221; suggests, it helps you to keep
+control of different versions. Hence, there is no need anymore to call
+your files &#8220;file_v2_a&#8221;. You change your files and &#8220;commit&#8221; the
 changes, Git keeps track of the different versions.</p>
 <p>Third, it allows you to collaborate with (many) others. You and your
 collaborators can work on the same file. Git/GitHub offers a way to
@@ -86,19 +86,18 @@ google or look at the following:</p>
 </li>
 <li><p class="first">Go to your command line and navigate to your directory &#8220;github&#8221;</p>
 </li>
-<li><p class="first">Type at the command line: &#8220;git clone
-<a class="reference external" href="https://github.com/janboone/third-repo">https://github.com/janboone/third-repo</a>&#8221; where you change
-&#8220;/janboone&#8221; to your own user name (instead of
+<li><p class="first">Type at the command line: <strong class="command">git clone
+https://github.com/janboone/third-repo</strong> where you change
+&#8220;/janboone/&#8221; to your own user name (instead of
 &#8220;janboone&#8221;)</p>
 </li>
 <li><p class="first">the repository that you just created on GitHub is now copied
 (&#8220;cloned&#8221;) to your computer.</p>
 </li>
-<li><p class="first">again we stop using &#8220;&#8221; around the commands that you type at the
-command line. Type the following to change into the directory
+<li><p class="first">Type the following to change into the directory
 &#8220;third-repo&#8221; (&#8220;cd&#8221; stands for Change Directory):</p>
 </li>
-<li><p class="first">cd third-repo/</p>
+<li><p class="first"><strong class="command">cd third-repo/</strong></p>
 </li>
 <li><p class="first">start your markdown editor (whichever one you installed) and create
 a file &#8220;document.md&#8221; in this directory &#8220;github/third-repo&#8221;. Type
@@ -107,12 +106,12 @@ some text here.</p>
 <li><p class="first">The following command adds all files in the directory to be tracked
 by Git:</p>
 </li>
-<li><p class="first">git add .</p>
+<li><p class="first"><strong class="command">git add .</strong></p>
 </li>
 <li><p class="first">the files are now &#8220;staged&#8221; and the following command adds these
 files to the next &#8220;commit&#8221; (with the &#8220;-m&#8221; flag, you add a message):</p>
 </li>
-<li><p class="first">git commit -m &#8220;First version of document&#8221;</p>
+<li><p class="first"><strong class="command">git commit -m &quot;First version of document&quot;</strong></p>
 <ul>
 <li><dl class="first docutils">
 <dt>optional: you can skip the &#8220;git add&#8221; part, if you use the &#8220;-a&#8221;</dt>
@@ -120,20 +119,20 @@ files to the next &#8220;commit&#8221; (with the &#8220;-m&#8221; flag, you add 
 </dd>
 </dl>
 </li>
-<li><p class="first">git commit -a -m &#8220;First version of document&#8221;</p>
+<li><p class="first"><strong class="command">git commit -a -m &quot;First version of document&quot;</strong></p>
 </li>
 </ul>
 </li>
 <li><p class="first">if you want to see what you have changed, type either of the
 following (depending how much information you want):</p>
 <ul class="simple">
-<li>git log -p</li>
-<li>git log &#8211;stat</li>
+<li><strong class="command">git log -p</strong></li>
+<li><strong class="command">git log --stat</strong></li>
 </ul>
 </li>
 <li><p class="first">the files are pushed to GitHub with the following command:</p>
 </li>
-<li><p class="first">git push origin master</p>
+<li><p class="first"><strong class="command">git push origin master</strong></p>
 </li>
 <li><p class="first">Go to the website: &#8220;<a class="reference external" href="http://janboone.github.io/third-repo/">http://janboone.github.io/third-repo/</a>&#8221; where
 you change &#8220;janboone&#8221; into your own github user name.</p>
@@ -165,8 +164,8 @@ changed here. That is, you see the text that you typed in your editor</li>
 <ul class="simple">
 <li>now change document.md by typing some changes to this file with your
 editor. Delete some words and add some sentences etc.</li>
-<li>git commit -a -m &#8220;Second version of document&#8221;</li>
-<li>git push origin master</li>
+<li><strong class="command">git commit -a -m &quot;Second version of document&quot;</strong></li>
+<li><strong class="command">git push origin master</strong></li>
 <li>again go to the GitHub website as above</li>
 <li>you can see that there are 3 commits now</li>
 <li>click on each commit to see what you have changed.</li>
@@ -176,12 +175,12 @@ editor. Delete some words and add some sentences etc.</li>
 <h3>branching out<a class="headerlink" href="#branching-out" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li>With the following command we create a new branch called &#8220;testbranch&#8221;:</li>
-<li>git branch testbranch</li>
+<li><strong class="command">git branch testbranch</strong></li>
 <li>now we switch to this new branch:</li>
-<li>git checkout testbranch</li>
+<li><strong class="command">git checkout testbranch</strong></li>
 <li>go back to your file document.md and change something in this file again</li>
-<li>git commit -a -m &#8220;Third version of this document in the testbranch&#8221;</li>
-<li>git push origin testbranch</li>
+<li><strong class="command">git commit -a -m &quot;Third version of this document in the testbranch&quot;</strong></li>
+<li><strong class="command">git push origin testbranch</strong></li>
 <li>go back to your github website; you will see something like:</li>
 </ul>
 <a class="reference internal image-reference" href="_images/github_repo_11.png"><img alt="_images/github_repo_11.png" class="align-center" src="_images/github_repo_11.png" style="width: 934.2px; height: 688.5px;" /></a>
@@ -191,50 +190,33 @@ editor. Delete some words and add some sentences etc.</li>
 branch and the testbranch branch:</li>
 </ul>
 <a class="reference internal image-reference" href="_images/github_repo_12.png"><img alt="_images/github_repo_12.png" class="align-center" src="_images/github_repo_12.png" style="width: 917.1px; height: 686.7px;" /></a>
-<ul>
-<li><p class="first">compare the version of document.md in each branch.</p>
-</li>
-<li><p class="first">with &#8220;git checkout master&#8221; you switch back to the master branch. You
-can change things here which will not affect the testbranch etc.</p>
-<ul>
-<li><dl class="first docutils">
-<dt>in case you get an error message here: you can only checkout of a</dt>
-<dd><p class="first last">branch if all your changes are committed</p>
-</dd>
-</dl>
-</li>
+<ul class="simple">
+<li>compare the version of document.md in each branch.</li>
+<li>with <strong class="command">git checkout master</strong> you switch back to the master branch. You
+can change things here which will not affect the testbranch etc.<ul>
+<li>in case you get an error message here: you can only checkout of a branch if all your changes are committed</li>
 </ul>
 </li>
-<li><p class="first">after you typed &#8220;git checkout master&#8221;, use your editor to open the
+<li>after you typed <strong class="command">git checkout master</strong>, use your editor to open the
 file document.md on your computer. Hence, your file document.md on
 your computer has switched back to the previous version (i.e. the
 changes you made in testbranch have gone in this version; by typing
-&#8220;git checkout testbranch&#8221; you see this version again)</p>
-</li>
-<li><p class="first">the following command gives an overview of your branches:</p>
-</li>
-<li><p class="first">git log &#8211;oneline &#8211;decorate &#8211;graph &#8211;all</p>
-</li>
-<li><p class="first">Now suppose that you are happy with the changes you made in
+&#8220;git checkout testbranch&#8221; you see this version again)</li>
+<li>the following command gives an overview of your branches:</li>
+<li><strong class="command">git log --oneline --decorate --graph --all</strong></li>
+<li>Now suppose that you are happy with the changes you made in
 testbranch. Then you would like to have these changes in the master
-branch as well. For this we &#8220;merge&#8221; the changes into the master branch</p>
-</li>
-<li><p class="first">first switch back to master (in case you had not done so yet):</p>
-</li>
-<li><p class="first">git checkout master</p>
-</li>
-<li><p class="first">and merge the changes from testbranch into master:</p>
-</li>
-<li><p class="first">git merge testbranch</p>
-</li>
-<li><p class="first">Note: if in the meantime you have also changed document.md in the
+branch as well. For this we &#8220;merge&#8221; the changes into the master branch</li>
+<li>first switch back to master (in case you had not done so yet):</li>
+<li><strong class="command">git checkout master</strong></li>
+<li>and merge the changes from testbranch into master:</li>
+<li><strong class="command">git merge testbranch</strong></li>
+<li>Note: if in the meantime you have also changed document.md in the
 master branch, Git cannot merge two versions. See <a class="reference external" href="http://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging#Basic-Merge-Conflicts">here</a>
-on how to deal with this.</p>
-</li>
-<li><p class="first">if you want, you can delete the testbranch now (all changes have
-been merged into master): &#8220;git branch -d testbranch&#8221;, but you don&#8217;t
-have to.</p>
-</li>
+on how to deal with this.</li>
+<li>if you want, you can delete the testbranch now (all changes have
+been merged into master): <strong class="command">git branch -d testbranch</strong>, but you don&#8217;t
+have to.</li>
 </ul>
 </div>
 <div class="section" id="collaborating">
@@ -244,7 +226,6 @@ you will be working with a relatively small team, we present here the
 workflow where everyone has push rights on the repository. An
 alternative is that only one person has push rights and the others
 fork the repository. This is described <a class="reference external" href="http://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project">here</a>.</p>
-<p>How to add team members as collaborators is described <a class="reference external" href="http://git-scm.com/book/en/v2/GitHub-Maintaining-a-Project">here</a>.</p>
 <p>One team member creates a new repository. As described <a class="reference external" href="http://git-scm.com/book/en/v2/GitHub-Maintaining-a-Project">here</a>
 this team member clicks on settings, and then adds collaborators by
 their GitHub user names. Then all members clone this repository to
@@ -256,15 +237,15 @@ back to GitHub has no problem: it works as above.</p>
 <p>When the second team member tries to push her/his changes, Git gives
 an error: it does not know how to merge the differences. The second
 team member to push changes, first needs to take the changes on board
-made by the first to push the changes to GitHub. This is done by
+made by the first before pushing her/his changes to GitHub. This is done by
 typing the following:</p>
 <ul class="simple">
-<li>git fetch origin</li>
-<li>git merge origin/master</li>
+<li><strong class="command">git fetch origin</strong></li>
+<li><strong class="command">git merge origin/master</strong></li>
 </ul>
 <p>Now the second member can push her/his changes onto GitHub by:</p>
 <ul class="simple">
-<li>git push origin master</li>
+<li><strong class="command">git push origin master</strong></li>
 </ul>
 <p>If you would like to avoid this, an alternative is that each team
 member creates her/his own branch of the repository and everyone works
@@ -282,15 +263,16 @@ with the master branch.</p>
         <div class="sidebar">
           <h3>Table Of Contents</h3>
           <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="practice.html">Practice</a></li>
+<li class="toctree-l1"><a class="reference internal" href="practice.html">Economics in practice</a></li>
 <li class="toctree-l1"><a class="reference internal" href="installing.html">Installing the stuff</a></li>
+<li class="toctree-l1"><a class="reference internal" href="plan.html">Schedule for the course</a></li>
 <li class="toctree-l1"><a class="reference internal" href="github.html">GitHub</a></li>
 <li class="toctree-l1"><a class="reference internal" href="reporting.html">Reporting your results</a></li>
 <li class="toctree-l1"><a class="reference internal" href="assignment1.html">First Assignment</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="">Using Git</a></li>
 <li class="toctree-l1"><a class="reference internal" href="assignment2.html">Second assignment</a></li>
 <li class="toctree-l1"><a class="reference internal" href="programming.html">Python</a></li>
-<li class="toctree-l1"><a class="reference internal" href="socialmedia.html">Social media</a></li>
+<li class="toctree-l1"><a class="reference internal" href="advanced.html">Three advanced topics</a></li>
 <li class="toctree-l1"><a class="reference internal" href="assignment3.html">Final assignment</a></li>
 </ul>
 

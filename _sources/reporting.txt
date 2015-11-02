@@ -27,13 +27,14 @@ If you want to see an example of this. Look at the github repository
 `<https://github.com/janboone/Private_contracts_health_care/tree/gh-pages>`_
 which contains the markdown file of a presentation (hence you can
 copy/clone this). The presentation then looks as follows:
+
 `<http://janboone.github.io/Private_contracts_health_care/presentation_Toulouse.html#/>`_
 
 Hence, when you give your presentation, you only need a browser and
 the address of the presentation.
 
 If you want to experiment a bit with this, download :download:`the zip
-file <markdown_presentation.zip>`. Unzip this file and open the file
+file <markdown_presentation.zip>`. Unzip this file and open the
 markdown file presentation.md. The file also gives the commands to
 create html or pdf presentations from the markdown file.
 
@@ -41,7 +42,7 @@ Latex
 -----
 
 For the second assignment it is useful to familiarize yourself with
-latex. Note that you do need to type a whole document in latex (so
+latex. Note that you do not need to type a whole document in latex (so
 don't worry about preambles etc.), you just need to know how to type
 \\(x^2\\), \\(\\alpha,\\beta\\) or have math displayed like
 
@@ -62,8 +63,9 @@ reStructuredText
 ----------------
 
 
-Combining sphinx with GitHub pages:
+If you like the way the webpages of this course look, you can combine
+sphinx with GitHub pages. An example tutorial for this is:
 
-* http://daler.github.io/sphinxdoc-test/includeme.html
+* `<http://daler.github.io/sphinxdoc-test/includeme.html>`_
 
 

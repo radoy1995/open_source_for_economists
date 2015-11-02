@@ -23,11 +23,12 @@ Contents:
 
    practice			  
    installing
+   plan
    github
    reporting
    assignment1
    git
    assignment2
    programming
-   socialmedia
+   advanced
    assignment3
