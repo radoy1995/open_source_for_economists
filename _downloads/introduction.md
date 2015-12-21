@@ -41,6 +41,9 @@ examples
 * when you finish this course, you can
 
     * create an html presentation like this one
+
+        * [source file](http://janboone.github.io/open_source_for_economists/_downloads/introduction.md)
+
     * solve models in python
 	* do simulations in python
 	* publish results like
