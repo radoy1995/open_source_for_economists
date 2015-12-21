@@ -62,11 +62,12 @@ Sphinx
 ------
 
 Combining sphinx with github is not entirely trivial. We gave a
-reference before, see :ref:`sphinx with github <sphinx_github>`. Here I explain how I do
+reference before, see :ref:`sphinx with github <sphinx-github>`. Here I explain how I do
 this myself. 
 
 
-* you need to install sphinx (as expected...); see :ref:`install <install>`
+* you need to install sphinx (as expected...); see :ref:`installing
+  the stuff <install>`
 * you need to have a source directory, which I denote by [source]
 * the source directory contains the rst-files
 * if you want to use github just for publishing your results, the

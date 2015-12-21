@@ -62,6 +62,7 @@ and focus on typesetting.
 reStructuredText
 ----------------
 
+.. _sphinx-github:
 
 If you like the way the webpages of this course look, you can combine
 sphinx with GitHub pages. An example tutorial for this is:
