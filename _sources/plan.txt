@@ -1,9 +1,62 @@
 Schedule for the course
 =======================
 
+questions
+---------
+
+If you have questions/comments about this course, go to the `issues
+page <https://github.com/janboone/open_source_for_economists/issues>`_
+open a new issue (with the green "New issue" button) and type your
+question. Use a title that is informative (e.g. not "question", but
+"question about assignment 2"). Go to the next box ("Leave a comment")
+and type your question. Then click on "Submit new issue". We will
+answer your question as quickly as possible.
+
+The advantages of the issue page include:
+
+* if you have a question, other students may have it as well; in this
+  way we answer the questions in a way that everyone can see it. Also
+  before asking the question, you may want to check whether it was
+  asked/answered before on the issue page
+* we answer your question more quickly than when you email us
+* you increase your knowledge of github!
+
+Only when you need to include privately sensitive information ("my cat
+has passed away"), you can send an email.
+
+In order to post issues, you need to create a github account (which
+you need anyway).
+
+Note that if your question is related to another issue, you can react
+to the earlier issue and leave a comment in that "conversation".
+
+plan
+----
+
 The plan for this course in the academic year 2015/2016 is as follows:
 
-TODO add lecture schedule
+
+.. csv-table:: Preliminary schedule, may be updated by announcements on BB:
+   :header: "day", "date", "time", "room", "topic", "exercises", "assignment due"
+   :widths: 5, 10, 15, 15, 20, 10,10
+
+   Tue, Feb 02 ,  16:45-19:30 ,  PZ 043 ,  Numerical Simulation, ,
+   Wed, Feb 17 ,  11:45-14:30 ,  PZ 044 ,  Numerical Simulation, ,
+   Tue, Feb 23 ,  12:45-15:30 ,  CZ 006 ,  Numerical Simulation, ,
+   Wed, Mar 02 ,  11:45-14:30 ,  AZ 008 ,  Numerical Simulation, ,
+   Wed, Mar 09 ,  11:45-14:30 ,  WZ 203 ,  Numerical Simulation, ,
+   Wed, Mar 16 ,  11:45-14:30 ,  DZ 005 ,  no class, ,
+   Wed, Mar 23 ,  11:45-14:30 ,  DZ 007 ,  Numerical Simulation, ,
+   Wed, Mar 30 ,  11:45-14:30 ,  PZ 045 ,  Numerical Simulation, ,
+   Wed, Apr 06 ,  11:45-14:30 ,  DZ 004 ,  Numerical Simulation, ,
+   Wed, Apr 13 ,  11:45-14:30 ,  DZ 005 ,  no class, ,
+
+
+
+grade
+-----
+
+
 
 
 Assignments are due at ???

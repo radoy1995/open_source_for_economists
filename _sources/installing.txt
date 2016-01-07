@@ -17,6 +17,9 @@ software. If you get an error message during installation, copy the
 error message and google it. In 99 percent of the cases this will
 solve your problem. If not; ask me in class.
 
+.. this is quite a bit of work but stay with it...
+
+
 Required installs for this course:
 ----------------------------------
 

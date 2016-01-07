@@ -39,6 +39,9 @@ this purpose. Follow all the steps described on this page. That is,
 both "Setting up Git" and "Next steps: Authenticating with GitHub from
 Git". 
 
+.. remark 1: couple of commands that you will type in (copy-paste) without knowing what they mean; will be explained later when we look into git
+
+.. remark 2: GitHub has changed the style of its webpages since the screenshots below were made; hence what you will see is not identical but it will be close enough
 
 Repository
 ----------

@@ -57,7 +57,11 @@ An introduction notebook that focuses on the two tools that economists need
 (optimization and equilibrium) can be
 
 * viewed as html `here <Intro_to_python_for_economists/Intro_to_python_for_economists.html>`_ and
+* as :download:`presentation <lectures/Intro_to_python_for_economists-presentation.slides.html>`
 * :download:`downloaded here <Intro_to_python_for_economists.ipynb>`. 
+
+
+.. ipython nbconvert Intro_to_python_for_economists-presentation.ipynb --to slides --post serve  
 
 
 
