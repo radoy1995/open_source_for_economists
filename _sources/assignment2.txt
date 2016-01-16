@@ -3,6 +3,8 @@ Second assignment
 
 .. _assignment2:
 
+As with assignment 1, this assignment you do on your own (not with a group).
+
 Take an assignment you have done for another course in the MSc, where
 you use math in the assignment. Then type the assignment in markdown
 using Latex to type math. That is, the assignment needs to contain
@@ -19,16 +21,17 @@ part A
 ------
 
 As with the :ref:`first assignment <assignment1>`, publish both the
-markdown file and html file on github and send us the github-address
-of both the repository and the published version (ending like
-"assignment.html"). 
+markdown file and html file on github. Use pandoc to turn the markdown file into html. The html file should be published on gh-pages branch such that it can be viewed with a webbrowser.
+
+If you actually typed your assignment in latex, you can convert the latex file directly to html. In this case, you publish both the latex and html file on github.
+
 
 part B
 ------
 
 Starting from the same markdown file with your assignment make an html
-presentation using pandoc. Publish the presentation in the same
-repository (both the markdown file "presentation.md"  and the one with an ending like "presentation.html").
+presentation using pandoc. Publish on GitHub both the markdown file "presentation.md"  and the one with an ending like "presentation.html". Again, the html file needs to be published on the gh-pages branch.
 
 
+Add a line to the CV you created in assignment 1 so that we can easily find the files for this assignment. That is, your CV.html should have a link to the assignment file in html format and to the html presentation.
 

@@ -3,16 +3,19 @@ Final assignment
 
 .. _assignment:
 
+
+This assignment you can do with a group; in particular, the group you indicated on the web-form at the start of the course.
+
+For this assignment, you create an ipython/jupyter notebook which has extension ".ipynb". You publish this notebook on GitHub and add a link to your CV (created in assignment 1) so that we can find it. Note that when someone views the notebook on GitHub (with a decent browser), it is actually rendered as if the person is running python.
+
+
 The idea of the assignment is that you can report your findings in a
 transparent way that can easily be verified/reproduced by others.
 
 
-
-
-
 Example assignment: http://janboone.github.io/Deductible_Health_Insurance/
 
-The python program here is more elaborate than what we expect you to
+The python noetbook here is more elaborate than what we expect you to
 do. However, the following ingredients will be important when we
 evaluate your assignment:
 
@@ -29,9 +32,6 @@ evaluate your assignment:
 * Mention the main *assumptions* that you need to get this answer.
 * When you use information, create a link to this information. The
   reader then only needs to click to find the relevant information. 
-* Also use internal links. E.g. when you refer to the conclusion,
-  create a link to it so that the reader can quickly glance what you
-  have done and go back to where she/he was reading.
 * If you use data, present graphs of the data.
 * If you use equations, use latex to make them easy to read.
 * Explain your code, the reader must be able to easily follow what you
@@ -41,6 +41,9 @@ evaluate your assignment:
   you did before, but now with different parameter values.
 * Include some *discussion* of what you find and elements on which you
   need additional information.
+* To increase readability, use internal links. E.g. when you refer to the conclusion,
+  create a link to it so that the reader can quickly glance what you
+  have done and go back to where she/he was reading. For this to work, you need to export the notebook to html. You do not have to do this, but it will impress us if you manage it.
 
   
 

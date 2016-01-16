@@ -3,6 +3,11 @@ Using Git
 
 .. _git:
 
+.. why automatic theme?
+
+.. how to stop the terminal? q
+
+
 Git is a version control system. There is a bit of a learning curve,
 but once you master it, it simplifies your life considerably.
 
@@ -168,7 +173,7 @@ branching out
   file document.md on your computer. Hence, your file document.md on
   your computer has switched back to the previous version (i.e. the
   changes you made in testbranch have gone in this version; by typing
-  "git checkout testbranch" you see this version again)
+  "git checkout testbranch" you see the other version again)
 
 * the following command gives an overview of your branches:
   
@@ -194,6 +199,8 @@ branching out
 * if you want, you can delete the testbranch now (all changes have
   been merged into master): :command:`git branch -d testbranch`, but you don't
   have to. 
+
+.. check whether new file is indeed the latest version
 
   
 collaborating

@@ -38,6 +38,9 @@ file <markdown_presentation.zip>`. Unzip this file and open the
 markdown file presentation.md. The file also gives the commands to
 create html or pdf presentations from the markdown file.
 
+Note that to edit a markdown file, you use the editor you installed before.
+
+
 Latex
 -----
 
@@ -69,4 +72,4 @@ sphinx with GitHub pages. An example tutorial for this is:
 
 * `<http://daler.github.io/sphinxdoc-test/includeme.html>`_
 
-
+reStructuredText is similar to markdown, but not identical. Markdown is a bit simpler, so stick to that if you do want further complications. For the assignments, there is not need to work with reStructuredText.

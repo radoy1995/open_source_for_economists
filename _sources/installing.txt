@@ -15,13 +15,15 @@ things are bound to go wrong. So switch on some music_ and go ahead!
 This is the first hurdle that you need to take to use open source
 software. If you get an error message during installation, copy the
 error message and google it. In 99 percent of the cases this will
-solve your problem. If not; ask me in class.
+solve your problem. If not; ask us in class.
 
-.. this is quite a bit of work but stay with it...
+
 
 
 Required installs for this course:
 ----------------------------------
+
+Installing the software is quite a bit of work and the first one (Latex) takes a lot of time (for your computer, not for you). Stay with it; once you are done, you are all set for the course. If you have problems with one piece of software that you cannot resolve, simply go on with the next. The more you manage to install the better; remaining issues we sort out in class.
 
 * First, we install Latex_. Latex is great to write your MSc thesis
   in. For this course, we need it to convert and display math in the
@@ -62,7 +64,7 @@ Required installs for this course:
   slower. We recommend to work with anaconda.
 
   
-
+If you have installed all this: congratulations, you are done! If you experienced any problems, ask us in class. Below we give some software resources, that you can install; but you do not have to do this.
 
 
 Optional:
