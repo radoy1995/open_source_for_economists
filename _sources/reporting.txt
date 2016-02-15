@@ -7,6 +7,9 @@ Reporting your results
 Here we discuss ways to report results on the web. Markdown,
 Restructuredtext, Latex
 
+Lecture can be found :download:`here <lectures/markdown_github.html>`
+
+
 Markdown
 --------
 
